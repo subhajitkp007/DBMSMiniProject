@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index Page</title>
+</head>
+<body>
+	<form action="listing.php" method="POST">
+	<select name="page" >select list to be printed
+	<option value="listing">Listing Question 3</option>
+	<option value="customer">Customer table</option>
+	<option value="order">Order deatails</option>
+	<option value="item">item deatails</option>
+	<option value="order_item">order item details</option>
+	<option value="ware_house">warehouse details</option>
+	<option value="shipment">Shipment Details</option>
+	</select>
+	<button type="submit" name="check" >Check</button>
+	</form>
+	<?php
+	if(isset($_POST['submit']))
+	{
+	 $val=$_POST['page'];
+	 if($val=listing)
+	 window.open(listing.php);
+	}
+	?>
+</body>
+</html>

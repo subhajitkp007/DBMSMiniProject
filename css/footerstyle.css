@@ -1,0 +1,21 @@
+
+
+footer{
+	background-color:#111;
+	width:100%;
+}
+
+
+footer.second{
+	border-top:1px solid #aadcd2;
+	background-color:#111;
+     height:auto;
+	margin:0;
+}
+footer.second p{
+	padding:5px 0 9px 0;
+	font-size:50%;
+	text-align:right;
+	color:#fff;
+	
+}

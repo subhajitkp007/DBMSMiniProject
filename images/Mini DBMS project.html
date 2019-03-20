@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://localhost/dbms/del_war.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Mini DBMS project</title>
+	<link rel="stylesheet" type="text/css" href="./Mini DBMS project_files/styleindex.css">
+
+</head>
+<body>
+<div class="top">
+<div class="header"> 
+	<h1> Ramkrishna Mahato Government Engineering College</h1>
+	<h2>Database Management Mini Project</h2>
+	<h2>Computer Science and Engineering</h2>
+	<h2>3rd Year,6th SEMESTER</h2>
+	</div>
+<div id="nav">
+<ul>
+     <li>INSERT
+	 <ul> 
+	     <li><a href="http://localhost/dbms/insert_cust.php">CUSTOMER</a></li>
+	     <li><a href="http://localhost/dbms/insert_os.php">ORDER</a></li>
+	     <li><a href="http://localhost/dbms/insert_oit.php">ORDER ITEM</a></li>
+	     <li><a href="http://localhost/dbms/insert_it.php">ITEM</a></li>
+	      <li><a href="http://localhost/dbms/insert_sp.php">SHIPMENT</a></li>
+		 <li><a href="http://localhost/dbms/insert_war.php">WARE HOUSE</a></li>
+	 </ul></li>
+     <li>DELETE
+	 	 <ul> 
+	     <li><a href="http://localhost/dbms/del_cust.php">CUSTOMER</a></li>
+	     <li><a href="http://localhost/dbms/del_os.php">ORDER</a></li>
+	     <li><a href="http://localhost/dbms/del_oit.php">ORDER ITEM</a></li>
+	     <li><a href="http://localhost/dbms/del_it.php">ITEM</a></li>
+	      <li><a href="http://localhost/dbms/del_sp.php">SHIPMENT</a></li>
+		 <li><a href="http://localhost/dbms/del_war.php">WARE HOUSE</a></li>
+	 </ul></li>
+     <li>SHOW
+	 	 <ul> 
+	     <li><a href="http://localhost/dbms/show_customer.php">CUSTOMER</a></li>
+	     <li><a href="http://localhost/dbms/show_order.php">ORDER</a></li>
+	     <li><a href="http://localhost/dbms/show_order_item.php">ORDER ITEM</a></li>
+	     <li><a href="http://localhost/dbms/show_item_table.php">ITEM</a></li>
+	     <li><a href="http://localhost/dbms/show_shipment_table.php">SHIPMENT</a></li>
+		 <li><a href="http://localhost/dbms/show_warehouse_table.php">WARE HOUSE</a></li>
+	 </ul></li>
+	 <li>MORE
+	 <ul>
+	 <li><a href="http://localhost/dbms/listing.php"> LISTING </a></li>
+	 <li><a href="http://localhost/dbms/input_city.php"> ORDER FROM X CITY</a> </li>
+	 </ul>
+	 </li>
+</ul>
+</div>	
+<div class="body-inner">
+<form class="form-inner" action="http://localhost/dbms/try_del_war.php" method="POST">
+<table><tbody><tr>
+				<td>WareHouse id</td>
+				<td><input type="text" name="war_id" placeholder="Integer"></td></tr>
+				<tr><td>ware house location</td>
+				<td><input type="text" name="ct" placeholder="cityname"></td></tr>
+				<tr>
+				<td>Use Input field</td>
+				<td><input type="radio" name="rbvalue" value="Warehouse">WareHouse id</td>
+				</tr>
+				<tr>
+				<td></td>
+				<td><input type="radio" name="rbvalue" value="City">ware house location</td>
+				</tr>
+				<tr>
+		
+</tr></tbody></table>
+<button type="submit" name="submit">CONFIRM</button><br>
+<button type="back" name="back">Back</button>
+</form>	
+
+</div>
+</div>
+<footer id="fo">
+<h2>©GROUP II</h2>
+<p>Subhajit</p>
+   </footer>  
+
+</body></html>

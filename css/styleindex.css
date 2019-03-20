@@ -1,0 +1,143 @@
+
+*{
+   
+	margin:0;
+	padding:0;
+	border:0;
+	text-decoration:none;
+	color:#111;
+	
+}
+.top {
+    background-image:url(../images/bg.jpeg);
+	background-position:center center;
+	background-size:cover;
+	font-family:'Alegreya Sans',sans-seriferif;
+	width:100%;
+}
+.header h1{
+	text-align:center;
+	color:#d4af37;
+	background-color:#111;
+
+}
+h1
+{
+	background-color:#111;
+}
+.header h2{
+	text-align:center;
+	color:#d4af37;
+}
+.header{
+   
+   background-color:#111;
+   opacity:0.8; 
+	margin:0 auto;
+}
+div#nav ul li{
+	float:left;
+	border-right:solid 1px #f5f5f5;
+	background-color:#2f55a4;
+	padding-left:2px;
+	height:40px;
+	width:14%;
+	text-align:center;
+	padding:5px auto;
+	list-style-type:none;
+	font-size:30px;
+
+	
+}
+div#nav ul li:hover{
+	border-right:solid 2px #2f55a4;
+	background-color:#f5f5f5;
+	cursor:pointer;
+}
+div#nav ul ul li{
+    display:none;
+
+}
+div#nav ul li:hover li{
+	background-color:#f5f5f5;
+    border:solid 2px #2f55a4;
+	display:block;
+	float:none;
+	height:auto;
+	width:auto;
+	cursor:pointer;
+	opacity:0.8;
+}
+div#nav ul li li:hover{
+	background-color:#2f55a4;
+		cursor:pointer;
+}
+.body-inner{
+
+height:600px;
+
+
+}
+.body-inner h1{
+      color:red;
+}
+.body-inner h2{
+      background-color:GREEN;
+	  
+}
+.body-inner table{
+	background-color:#f5f5f5;
+	border-color:black;
+	font-size:25px;
+	opacity:0.8;
+}
+.body-inner table-header-group{
+	background-color:#111;
+}
+form input[type="text"],input[type="integer"],input[type="radio"],placeholder{
+	font-size:20px;
+	color:green;
+	opacity:0.9;
+	background-color:#111;
+	
+	
+}
+.form-inner{
+	position:fixed;
+}
+table,th,td{
+	border:2px solid #111;
+	background-color:#111;
+	color:#fff;
+}
+button{
+    margin-right:150px;
+	margin-left:20px;
+	margin-top:5px;
+	font-size:30px;
+	height:auto;
+	width:auto;
+    float:none;
+	background-color:#f5f5f5;
+	color:black;
+	position:relative;
+	opacity:0.9;
+}
+button:hover{
+	color:white;
+	background-color:#2f55a4;
+
+}
+
+
+footer{
+	border-top:1px solid #aadcd2;
+	background-color:#111;
+    height:50px;
+	text-align:center;
+	color:#d4af37;
+	margin:0;
+	top:-50px;
+}
+
+
