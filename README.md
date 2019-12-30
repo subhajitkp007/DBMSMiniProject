@@ -1,3 +1,5 @@
+## Current status 
+* [x] completed
 ## Contents
 * [Introduction](#Introduction)
 * [Objective](#Objective)
@@ -5,7 +7,7 @@
 * [Instructions for running the project](#Instructions)
 * [Devloper details](#Devloper)
 # Introduction
-### This is an small project on Database Manegment system,it is designed for performing support some basic functionality such as delete,insert,find in database using Graphical user interface. I have designed an simple and interactive user interface for performing these operation on table.
+### This is an small project on Database Manegment system,it is designed for performing support some basic functionality such as delete,insert,find in database using Graphical user interface. I have designed a simple and interactive user interface for performing these operation on table.
 # Objective
 Learn to devlop website , connect to database from the website and perform various operation on the database.
 ## Main Component of Project
@@ -23,21 +25,24 @@ Learn to devlop website , connect to database from the website and perform vario
 ---
 # Instructions
 ### Download the project to your machine:
- click clone or download > download Zip 
- or use following the command
+ ```
+click clone or download > download Zip 
 ```
-git clone git@github.com:subhajitkp007/DBMSMiniProject.git
+ or use following the command on git bash
+```
+git clone https://github.com/subhajitkp007/DBMSMiniProject.git
 ```
 DBMSMiniProject-master.zip file will be downloaded.
 Unzip the files. Rename your folder as **DBMSMiniProject**.
-**DBMSMiniProject** move the folder to \<your xampp installed location>/XAMPP/htdocs. If you have not changed the location duing XAMPP installation then path will be **C:\xampp\htdocs**
+**DBMSMiniProject** move the folder to \<your xampp installed location>/xampp/htdocs. If you have not changed the location duing XAMPP installation then path will be **C:\xampp\htdocs**
 ### Set up your Enviorment:
 Open XAMPP control Panel start Apache and MySql.
 
 ### Import Database
 Open XAMPP control panel click on the admin button of MySql.You will be redirected to [phpMyadmin](http://localhost/phpmyadmin/) 
+```
 Click new > database name will be "company" > create > Import > choose file > select project file location/Database/company.sql > Go  > Import has been successfully finished.
-
+```
 #### Congratulations you have succesfully imported the database.
 
 ### Run the Project
