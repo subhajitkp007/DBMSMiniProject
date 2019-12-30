@@ -43,30 +43,40 @@ Click new > database name will be "company" > create > Import > choose file > se
 ### Run the Project
 Open your browser and paste the following link:
     http://localhost/DBMSMiniProject or [click here](http://localhost/DBMSMiniProject)
-### Now explore the features of the project.If you want to some make changes then go to the path **C:\xampp\htdocs\DBMSMiniProject** open the files using text editor modify the file according to your requirements , save that and refresh your browser or [click here to see the changes](http://localhost/DBMSMiniProject.) If you are facing any problem drop your mail [subhajitmahata06@gmail.com](mailto:someone@example.com?Subject=DBMS%20MINI%20Project%20on%github). For quick response send me message on [Whatsapp click here.]( https://api.whatsapp.com/send?phone=+919732273358)
+#### Now explore the features of the project.If you want to some make changes then go to the path **C:\xampp\htdocs\DBMSMiniProject** open the files using text editor modify the file according to your requirements , save that and refresh your browser or [click here to see the changes](http://localhost/DBMSMiniProject.) If you are facing any problem drop your mail [subhajitmahata06@gmail.com](mailto:someone@example.com?Subject=DBMS%20MINI%20Project%20on%github). For quick response send me message on [Whatsapp click here.]( https://api.whatsapp.com/send?phone=+919732273358)
 
 ## SQL TABLE STRUCTURE DETAILS
 **Customer Table**
 *cust(cust:int,primary, Cname:String, City:string)*
-| cust | Cname | City |
-| ---- | ----- | ---- |
- customer ID |custome name | customer city
+
+| cust        | Cname        | City          |
+| ----------- | ------------ | ------------- |
+| customer ID | custome name | customer city |
+
 **Order Table** *(Order:int,primary,Odate:date,OAmt:int)*
-| order | Odate | OAmt |
-| ---- | ----- | ---- |
- order ID|order date | Order ammount
+
+| order    | Odate      | OAmt          |
+| -------- | ---------- | ------------- |
+| order ID | order date | Order ammount |
+
 **Item details Table** *(Item:int,primary,Price:int)*
-| Item | Price |
-| ---- | ----- |
- Item ID |Price of the item
+
+| Item    | Price             |
+| ------- | ----------------- |
+| Item ID | Price of the item |
+
 **Shipment Table** *( Order:int,primary, warehouse:int, shipdate:date)*
-| cust | Cname | City |
-| ---- | ----- | ---- |
- 1 |Subhajit mahata | Purulia
+
+| cust | Cname           | City    |
+| ---- | --------------- | ------- |
+| 1    | Subhajit mahata | Purulia |
+
  **Warehouse details Table** *warehouse(Warehouse:int,primary, City:string)*
-| Warehouse | City |
-| ---- | ----- | 
-warehouse ID |location of warehouse
+
+| Warehouse    | City                  |
+| ------------ | --------------------- |
+| warehouse ID | location of warehouse |
+
  ---
  # Devloper 
  Subhajit Mahata 
