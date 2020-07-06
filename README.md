@@ -87,5 +87,5 @@ Open your browser and paste the following link:
  Subhajit Mahata 
 
  Mail id: [subhajitmahata06@gmail.com](mailto:someone@example.com?Subject=DBMS%20MINI%20Project%20on%github)  
- linkedin[ https://www.linkedin.com/in/subhajit-mahata-1b6b52170/](https://www.linkedin.com/in/subhajit-mahata-1b6b52170/)
+ linkedin[ https://www.linkedin.com/in/subhajitmahata/](https://www.linkedin.com/in/subhajit-mahata-1b6b52170/)
  Contact : +91 9732273358 / +91 9382747308
